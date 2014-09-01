@@ -1,3 +1,3 @@
 Cdl/Raygun/                             app/code/community/Cdl/Raygun
-etc/modules/Cdl_Raygun.xml              /etc/modules/Cdl_Raygun.xml
-lib/Raygun4php/                             lib/Raygun4php/
+etc/modules/Cdl_Raygun.xml              app/etc/modules/Cdl_Raygun.xml
+lib/Raygun4php/                         lib/Raygun4php

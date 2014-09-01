@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <dev>
+            <groups>
+                <log>
+                    <fields>
+                        <raygun_code translate="label">
+                            <label>Raygun Application Code</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter Generated Application Code</comment>
+                        </raygun_code>
+                    </fields>
+                </log>
+            </groups>
+        </dev>
+    </sections>
+</config>

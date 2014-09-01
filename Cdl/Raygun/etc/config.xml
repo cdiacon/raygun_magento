@@ -1,4 +1,4 @@
-<xml version="1.0">
+<?xml version="1.0"?>
 <config>
     <modules>
         <Cld_Raygun>
@@ -17,5 +17,27 @@
             </cdl_raygun>
         </helpers>
     </global>
+    <frontend>
+        <routers>
+            <raygun>
+                <use>standard</use>
+                <args>
+                    <module>Cdl_Raygun</module>
+                    <frontName>raygun</frontName>
+                </args>
+            </raygun>
+        </routers>
+    </frontend>
+    <global>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <raygun_action_predispatch>
+                        <class>Cdl_Raygun_Model_Observer</class>
+                        <method>actionPredispatch</method>
+                    </raygun_action_predispatch>
+                </observers>
+            </controller_action_predispatch>
+        </events>
+    </global>
 </config>
-</xml>
