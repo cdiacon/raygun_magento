@@ -1,0 +1,21 @@
+<xml version="1.0">
+<config>
+    <modules>
+        <Cld_Raygun>
+            <version>0.1.0</version>
+        </Cld_Raygun>
+    </modules>
+    <global>
+        <models>
+            <cdl_raygun>
+                <class>Cdl_Raygun_Model</class>
+            </cdl_raygun>
+        </models>
+        <helpers>
+            <cdl_raygun>
+                <class>Cdl_Raygun_Helper</class>
+            </cdl_raygun>
+        </helpers>
+    </global>
+</config>
+</xml>

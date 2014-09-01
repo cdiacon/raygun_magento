@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cdl_Raygun>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Cdl_Raygun>
+    </modules>
+</config>
