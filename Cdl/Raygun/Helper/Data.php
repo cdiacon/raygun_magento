@@ -14,30 +14,7 @@ class Cdl_Raygun_Helper_Data extends Mage_Core_Helper_Abstract
 	}
 
 
-	/**
-	 * Send message to raygun.
-	 *
-	 * @param $message
-	 */
-	public function log( $message )
-	{
 
-	}
-
-	/**
-	 * Raygun exception.
-	 *
-	 * @param $errno
-	 * @param $message
-	 * @param $file
-	 * @param $line
-	 * @param $tags
-	 * @param $time
-	 */
-	public function logException( $errno, $message, $file, $line, $tags, $time )
-	{
-
-	}
 
 	/**
 	 * Initiate a raygun client.
